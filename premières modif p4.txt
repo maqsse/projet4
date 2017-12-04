@@ -1,0 +1,6 @@
+Suite à la soutenance P4 du 03/12 j'ai commencé à apporter les 1ères modifications : 
+
+>>> réécriture des requêtes SQL pour éviter les injections query en prepare ( quand il y a des arguments ).
+>>> close Cursor avant return
+>>> suppression du script JS qui servait à situer le visiteur sur le site
+>>> remplacements de la fonction strip_tags pour htmlspecialchars

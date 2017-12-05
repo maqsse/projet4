@@ -1,0 +1,6 @@
+Modif du 05/12
+
+>>>réécriture de tous les controleurs
+>>>suppression des routeurs
+>>> début de création du routeur ( ou controleur frontal )
+

@@ -1,0 +1,2 @@
+réécriture de quelques controlleurs
+travail sur le routeur 

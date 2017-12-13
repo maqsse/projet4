@@ -1,0 +1,2 @@
+travail sur les sessions 
+travail sur les bugs en particulier les 2 requêtes qui ne fonctionnent pas: suppression com signalé et maj billet

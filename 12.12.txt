@@ -1,0 +1,2 @@
+travail sur les sessions 
+suppression commentaire et maj billets ne fonctionnent pas

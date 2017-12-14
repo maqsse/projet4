@@ -1,0 +1,3 @@
+Rectification requête deleteComment, elle fonctionne
+Travail toujours sur la requête majBillet
+session Thibaut

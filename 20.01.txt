@@ -1,0 +1,3 @@
+Reprise de la formation
+session Thibaut
+Travail sur le p4. Réécriture de certaines URL mais problème erreur 302 sur un lien "se déconnecter" de la page admin.php

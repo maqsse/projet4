@@ -1,0 +1,5 @@
+Identifiants de connexion pour l'administrateur
+
+pseudo>>jean
+mdp>> projet
+

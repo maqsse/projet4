@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+html {
+    height: 100%;
+}
+
+#header p {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#divbillets {
+    border-color: #ecfefc;
+}
+
+.pici {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#divbillets h5 {
+    text-align: center;
+    color: #87a7a3;
+}
+
+#divcom p {
+    font-family: 'Courgette',cursive;
+    word-wrap: break-word;
+}
+
+#signalbutton:hover {
+    background-color: #3263e2;
+}
+
+header {
+    height: 300px;
+    border: 2px solid #99CCFF;
+    text-align: center;
+    font-style: italic;
+    background-color: #C0C0C0;
+}
+
+header p {
+    font-family: 'Pacifico',cursive;
+    font-size: 2.5em;
+    color: #386473;
+}
+
+#headerAdmin {
+    height: 150px;
+}
+
+#headerLogin {
+    height: 150px;
+}
+
+#lienMaj {
+    float: right;
+}
+
+.core {
+    margin: 3%;
+}
+
+.core p {
+    font-family: 'El Messiri',sans-serif;
+    font-size: 1.5em;
+}
+
+.core h1 {
+    text-align: center;
+    color: #386473;
+}
+
+#divindex:hover {
+    background-color: #E0E0E0;
+}
+
+#divindex a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+#headerLogin p {
+    text-align: center;
+}
+
+#headerAdmin p {
+    text-align: center;
+}
+
+#liensuite {
+    font-size: 2em;
+}
+
+#plogin {
+    text-align: center;
+    font-family: 'El Messiri',sans-serif;
+}
+
+#formlogin {
+    width: 50%;
+    margin: 5% 25%;
+}
+
+.core a {
+    font-family: 'Sacramento',cursive;
+    font-size: 1.5em;
+}
+
+.ppubli {
+    font-family: 'Dancing Script',cursive;
+    color: #007BFF;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+#pundivbillets {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(60deg, #09594f,#82f2e4);
+}
+
+.divvide {
+    width: 40%;
+    height: 1px;
+    margin: 0 30%;
+    margin-bottom: 2%;
+    background-color: #82f2e4;
+}
+
+#titre {
+    font-family: 'Dancing Script',cursive;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+#pdate {
+    font-style: italic;
+}
+
+#divAdmin {
+    text-align: center;
+    font-family: 'Archivo Black',sans-serif;
+}
+
+#jean {
+    font-family: 'Passion One',cursive;
+    font-style: italic;
+}
+
+.core h2 {
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    color: #d9e2ed;
+    background-color: black;
+}
+
+#pcomappropri {
+    font-size: 1.1em;
+}
+
+#poster_com {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid #007BFF;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    font-size: 1.6em;
+    color: #007BFF;
+    background-color: transparent;
+}
+
+form {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+form input:hover {
+    border-color: #b4a5fb;
+}
+
+form textarea:hover {
+    border-color: #b4a5fb;
+}
+
+form #submit {
+    cursor: pointer;
+}
+
+form input {
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 0.8em;
+}
+
+.admin table #ptable {
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+.admin a {
+    font-size: 1.5em;
+    color: red;
+}
+
+.admin a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#form1 label {
+    font-family: 'Lobster',cursive;
+}
+
+#submit {
+    border-radius: 5px 5px 5px;
+    color: white;
+    background-color: #007BFF;
+}
+
+#submit:hover {
+    color: #007BFF;
+    background-color: white;
+}
+
+#perror {
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: #c83222;
+}
+
+.table:hover {
+    background-color: #e6d1d0;
+}
+
+@media screen and (max-device-width:480px) {
+    .core {
+        font-size: 170%;
+    }
+
+    footer p {
+        font-size: 170%;
+    }
+
+    .pici {
+        font-size: 150%;
+    }
+
+    #formlogin label {
+        font-size: 150%;
+    }
+
+    #formlogin input {
+        font-size: 130%;
+    }
+
+    .liensmaj {
+        font-size: 200%;
+    }
+
+    #form1 input {
+        font-size: 150%;
+    }
+
+    #divbutton {
+        margin-left: 20%;
+    }
+
+    #signalbutton {
+        font-size: 120%;
+    }
+
+    #formcom input {
+        font-size: 130%;
+    }
+
+    #formcom textarea {
+        font-size: 130%;
+    }
+
+    #formcom button {
+        font-size: 110%;
+    }
+
+    h5 {
+        font-size: 110%;
+    }
+}

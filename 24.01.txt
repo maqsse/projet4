@@ -1,0 +1,2 @@
+recherche sur l'erreur 302 
+prises d'info ( compléments ) sur l'écriture d'un fichier .htaccess 

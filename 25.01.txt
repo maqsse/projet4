@@ -1,0 +1,4 @@
+recherche sur l'erreur 302 
+essais de réécriture du .htaccess mais aucun changements
+Remarque : un autre lien donne une erreur 302 mais le code fonctionne...Donc on peut penser que le dysfonctionnement de l'url n'est pas directement liée à cette erreur
+Travail sur la mise à jour d'un billet, la requête ne s'execute pas

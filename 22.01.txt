@@ -1,0 +1,2 @@
+recherche sur l'erreur 302 
+modifications sur le controller, le routeur et le model...toujours la même erreur

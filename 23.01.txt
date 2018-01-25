@@ -1,0 +1,2 @@
+recherche sur l'erreur 302 
+réponse ovh il s'agit d'une erreur provenant du fichier .htaccess

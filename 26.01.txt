@@ -1,0 +1,6 @@
+
+Travail sur la mise à jour d'un billet. Requête maintenant fonctionnelle... _GET['titre'] au lieu de _POST['titre']
+Toujours pbm "se déconnecter" de la page admin.php
+Vérif responsive ok
+Page "mentions légales" ne s'affiche pas
+

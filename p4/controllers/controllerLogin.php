@@ -14,6 +14,8 @@ if (isset($_POST["submit"]))
 
 	$pseudo = $_POST['pseudo'];
 	$mdp = $_POST['password'];
+	$_SESSION['pseudo'] = $administrateur->pseudo;
+        $_SESSION['mdp'] = $administrateur->mdp;
 	if ($administrateur->pseudo == $pseudo and $administrateur->mdp ==sha1($mdp))
 		{
 		header('location:../racine.php?url=admin');

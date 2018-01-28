@@ -11,19 +11,23 @@ include ("../models/Admin.php");
 
 $con = new Database;
 $con->connect();
-
-// connexion au panneau d'administration
-$administrateur = new Admin;
+$administrateur= new Admin; 
 $administrateur = Admin::Administration();
 $_SESSION['pseudo'] = $administrateur->pseudo;
 $_SESSION['mdp'] = $administrateur->mdp;
 
-if (isset($_GET['action']) && $_GET['action'] == 'disconnect')
-	{
-	$_SESSION = array();
-	session_destroy();
-	header("location:.../racine.php");
-	}
+// vérification des identifiants
+ if((isset($_SESSION['pseudo'])) AND (isset($_SESSION['mdp'])))
+{
+
+
+}
+else{
+header("location:../racine.php");
+}
+
+
+
 
 // affichage des commentaires récemment signalés
 

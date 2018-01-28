@@ -1,0 +1,7 @@
+Session Thibaut
+rectif page "mentions.php"
+"se déconnecter" de admin.php résolu 
+faille sécurité admin.php
+
+
+

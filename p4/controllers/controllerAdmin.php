@@ -13,19 +13,15 @@ $con = new Database;
 $con->connect();
 $administrateur= new Admin; 
 $administrateur = Admin::Administration();
-$_SESSION['pseudo'] = $administrateur->pseudo;
-$_SESSION['mdp'] = $administrateur->mdp;
+
 
 // vérification des identifiants
- if((isset($_SESSION['pseudo'])) AND (isset($_SESSION['mdp'])))
+if (isset($_SESSION['pseudo']) && $_SESSION['pseudo'] == $administrateur->pseudo) 
 {
-
-
 }
 else{
-header("location:../racine.php");
-}
-
+header("location:../racine.php?url=login");
+} 
 
 
 
